@@ -6,7 +6,7 @@ int main()
     char name[200];
     printf("Digite o seu nome, seu ano de nascimento e: ");
     scanf("%200[^\n]%d", name, &born);
-    int age = 2024 - born;
+    int age = 2025 - born;
     
     if ((age >= 1) && (age <= 12)) {
         printf("Seu nome e %s, voce nasceu no ano de %d, voce tem %d anos e voce e uma crianca, vai estudar", name, born, age);
